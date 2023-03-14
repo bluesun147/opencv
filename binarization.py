@@ -1,5 +1,8 @@
 import cv2
 
+# https://www.youtube.com/watch?v=VtVPLJODqKw&list=PLwfJJiO20qkDue05S5MNhgYNnClMVlagN&index=4
+# 이진화 (black and white)
+
 def nothing(x):
     pass
 

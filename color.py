@@ -1,6 +1,9 @@
 import cv2
 
-img_color = cv2.imread('2.png')
+# https://www.youtube.com/watch?v=HGhj0Uef8K4&list=PLwfJJiO20qkDue05S5MNhgYNnClMVlagN&index=5
+# 파란 색 검출
+
+img_color = cv2.imread('1.jpg')
 height,width = img_color.shape[:2]
 
 img_hsv = cv2.cvtColor(img_color, cv2.COLOR_BGR2HSV)
